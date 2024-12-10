@@ -1,0 +1,497 @@
+@media (min-width:0px) and (max-width:768px) {
+    
+
+.social_icon1
+{
+    font-size:16px;
+}
+
+.subheader_child
+{
+    width:95%;
+}
+
+
+
+
+
+.child_header
+{
+    width:90%;
+
+}
+
+
+.header_btn
+{
+    display:none;
+}
+
+
+.menu_icon
+{
+    font-size:2rem;
+}
+
+.subheader
+{
+    padding-right:1rem;
+}
+
+.header_btn1
+{
+    width:10rem;
+    height:3rem;
+    border-radius:5px;
+    color:rgb(251, 249, 249);
+    background-color:rgb(252, 51, 51);
+    text-transform: capitalize;
+    font-size:var(--btn-font);
+    font-weight: 400;
+    display:inline-block;
+    display:grid;
+    place-items:center;
+
+
+}
+
+  .menu_icon {
+    cursor: pointer;
+    display:block;
+
+  }
+
+
+  .navbar_list {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #0b0b0b;
+    padding: 10px;
+    width: 70%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index:999;
+    display:none;
+    transition:all 0.5s;
+    height:100vh;
+    border-radius:0rem;
+    border:none;
+  }
+
+  .navbar_list>li 
+  {
+    color:rgb(254, 250, 250);
+  }
+
+  .header_btn1
+  {
+    display:block;
+    display:grid;
+    place-items:center;
+  }
+
+  .xmark
+  {
+    display:block;
+    color:rgb(252, 250, 250);
+    position: relative;
+    left:10rem;
+    top:2rem;
+    font-size:1.8rem;
+  }
+
+
+
+ 
+  
+
+/* hero section */
+
+
+
+
+
+
+
+
+
+
+
+
+.prev,.next 
+{
+    font-size:18px;
+    display:flex;
+    height:auto;
+}
+
+.slide img {
+    width: 100%;
+    height: 100vh;
+    object-position:center;
+
+}
+
+
+
+/* about section */
+
+
+
+.about_section_child
+{
+    display:flex;
+    flex-direction:column-reverse;
+    width:90%;
+    height:auto;
+
+
+}
+
+.about_section_child_left
+{
+    border:none;
+}
+
+.about_section_child_left
+{
+    height:20rem;
+}
+
+.about_section_child_left>img 
+{
+    border:5px solid peru;
+
+
+}
+
+.about_section_child_left,.about_section_child_right 
+{
+    width:100%;
+}
+
+
+
+.about_section_child_right>h1 
+{
+    font-size:28px;
+}
+
+.about_section_child_right>p 
+{
+    font-size:16px;
+}
+
+
+.about_section_child_left1>h1 
+{
+    font-size:28px;
+    font-weight:700;
+    line-height: var(--lineheight1);
+}
+
+
+
+
+/* our services */
+
+.service_section
+{
+    width:100%;
+}
+
+
+
+.service_section_child
+{
+width:100% !important;
+padding:0 !important;
+}
+
+.service_section_child_title
+{
+    width:95% !important;
+    margin: auto;
+
+}
+
+.service_section_child1
+{
+    width:80% !important;
+}
+
+.service_section_child_title>h2 
+{
+    font-size:28px;
+}
+
+.service_section_child_title>p
+{
+  font-size:16px;
+}
+
+.service_section_child_content
+{
+    width:100% !important;
+    margin: auto;
+    margin-top:2rem;
+    
+
+}
+
+
+
+/* banner section */
+
+.banner_section
+{
+    height:auto !important;
+    display:grid;
+    place-items:center;
+    padding:4rem 0 3rem 0;
+
+}
+
+
+.banner_section_child
+{
+width:90% !important;
+height:auto;
+padding:0;
+
+
+}
+
+.banner_section_child>h3
+{
+font-size:28px;
+}
+
+.believe_section_child_left
+{
+    width:90% !important;
+}
+
+.believe_section_child_right
+{
+    width:90% !important;
+}
+
+
+/* services section */
+
+.service_section_child>h2
+{
+font-size:28px;
+}
+
+.service_section_child
+{
+    width:95% !important;
+}
+
+.service_card>p 
+{
+    position: relative;
+    left:1rem;
+}
+
+.service_card
+{
+    width:100% !important;
+}
+
+
+
+
+/* belive */
+
+.believe_section_child
+{
+    display:flex;
+    flex-direction:column-reverse;
+    height:auto;
+
+}
+
+.believe_section_child_left
+{
+    width:100% ;
+}
+
+.believe_section_child_right 
+{
+width:100%;
+}
+
+.believe_section_child_right_content>h3 
+{
+    font-size:28px;
+}
+
+.believe_section_child_right_content
+{
+    width:100% !important;
+}
+
+
+.beauty_section_beauty_child
+{
+    display:flex;
+    flex-direction: column;
+    width:95% !important;   
+}
+
+.beauty_section_beauty_child_left 
+{
+    width:95% !important;
+
+
+}
+
+.beauty_section_beauty_child_left>h3 
+{
+    font-size:28px;
+}
+
+.beauty_section_beauty_child_right
+{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    gap:3rem;
+
+}
+
+.beauty_section_beauty_child_right_card
+{
+    width:100%;
+}
+
+
+/* pricing services css */
+
+
+.service_price
+
+{
+height:auto;
+}
+
+
+.service_price_child
+{
+    display:flex;
+    flex-direction: column-reverse;
+    height:auto;
+    width:95%;
+}
+
+
+
+.service_price_child_left,.service_price_child_right
+{
+    width:100%;
+}
+
+/* form section */
+
+.form_section_child
+{
+    display:flex;
+    flex-direction:column;
+    box-shadow: #f8f9fa;
+}
+
+.form_section
+{
+    width:100% !important;
+}
+
+.user_box
+{
+    width:90%;
+}
+
+.user_box>input 
+{
+    width:100%;
+}
+
+.form_section>h3 
+{
+    font-size:28px;
+}
+
+.form_button
+{
+    width:90%;
+}
+
+.form_section1
+{
+    height:auto;
+    width:90%;
+    font-size:var(--nd_heading);
+    margin: auto;
+    font-weight:700;
+
+
+}
+
+
+
+/* footer section */
+
+.footer_section_child
+{
+    display:flex;
+    flex-direction:column;
+}
+
+.footer_section_child_card1
+{
+    width:100% !important;
+
+}
+
+
+.footer_section_child_card1>img 
+{
+    width:40% !important;
+}
+
+.footer_section_child_card>p 
+{
+    color:rgb(160, 160, 160);
+}
+
+.footer_section_child_card>h3 
+{
+    font-size:2rem;
+}
+
+
+.footer_section_child_card
+{
+    width:100%;
+    height:auto;
+    margin-top:2rem;
+}
+
+.icon_box
+{
+display:flex;
+flex-direction:row;
+margin-top:2rem;
+
+}
+
+.social_icon
+{
+    font-size:4rem;
+    color:white;
+}
+
+
+}
